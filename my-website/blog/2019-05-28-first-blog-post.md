@@ -2,11 +2,11 @@
 slug: first-blog-post
 title: First Blog Post
 authors:
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
-tags: [hola, docusaurus]
+  name: Anthony Castaneda
+  title: Awesome Dude
+  url: https://github.com/anthonycastaneda
+  image_url: https://github.com/anthony.png
+tags: [hello-there, docusaurus]
 ---
 
 PowerShell?

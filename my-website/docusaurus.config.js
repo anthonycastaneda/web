@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/anthonycastaneda/web',
+          editUrl: 'https://github.com/anthonycastaneda/web/my-website',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/anthonycastaneda/web',
+            'https://github.com/anthonycastaneda/web/my-website',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -79,12 +79,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Sysadmin SubReddit',
+                href: 'https://reddit.com/r/sysadmin',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Mechanical Keyboards',
+                href: 'https://reddit.com/r/mechanicalkeyboards',
               },
               {
                 label: 'Twitter',
