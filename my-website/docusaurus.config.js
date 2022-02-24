@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Anthony Castaneda',
-  tagline: 'Learning To Web, While You Watch',
+  tagline: 'MY GOD WHAT HAVE I DONE',
   url: 'https://anthonycastaneda.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -30,7 +30,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/anthonycastaneda/web/my-website',
+            'https://github.com/anthonycastaneda/web/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Anthony NavBar',
+        title: 'NavBar',
         logo: {
           alt: 'My Site Logo',
           src: 'img/512Logo-Circle.png',
