@@ -9,4 +9,22 @@ authors:
 tags: [hola, docusaurus]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+PowerShell?
+
+```powershell title="hello.ps1"
+$computers = (Get-Content C:\Temp\AD-PCs.txt)
+foreach ($computer in $computers) {
+    Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
+    Invoke-Command  -ScriptBlock {
+        $temp = "c:\temp"
+        if (!(Test-Path $temp)) { mkdir c:\Temp }
+        $PSWindowsUpdates = "c:\program files\WindowsPowershell\Modules\PSWindowsUpdate"
+        if (!(Test-Path $PSWindowsUpdates)) {
+            Invoke-WebRequest -Uri http://(host)/PSWindowsUpdate.zip -Method GET `
+             -OutFile c:\temp\PSWindowsUpdate.zip 
+            Expand-Archive -Path C:\temp\PSWindowsUpdate.zip `
+             -DestinationPath "c:\program files\WindowsPowershell\Modules\"
+        }
+    } -ComputerName $computer
+}
+```

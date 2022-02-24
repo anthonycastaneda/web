@@ -106,11 +106,12 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Anthony Castaneda. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Anthony Castaneda. Built with Satan in my Heart. 👹`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['powershell'],
       },
     }),
 };
