@@ -37,4 +37,19 @@ html[data-theme='dark'] {
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
-/*  */
+
+.prism-code {
+  counter-reset: line-number;
+}
+
+.prism-code[class*=language-] .token-line::before {
+  counter-increment: line-number;
+  content: counter(line-number);
+  margin-right: calc(var(--ifm-pre-padding) * 1.5);
+  text-align: right;
+  min-width: 1.5rem;
+  display: inline-block;
+  opacity: .3;
+  position: sticky;
+  left: var(--ifm-pre-padding);
+}

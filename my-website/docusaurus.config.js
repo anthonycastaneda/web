@@ -6,16 +6,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Anthony Castaneda',
-  tagline: 'MY GOD WHAT HAVE I DONE',
-  url: 'https://anthonycastaneda.com',
+  title: 'MY GOD WHAT HAVE I DONE',
+  tagline: 'This is not my beautiful house 🏠',
+  url: 'https://anthonycastaneda.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'anthonycastaneda', // Usually your GitHub org/user name.
   projectName: 'web', // Usually your repo name.
-
+   // ...
+  plugins: ['docusaurus-plugin-sass'],
+  // ...
   presets: [
     [
       'classic',
@@ -24,7 +26,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/anthonycastaneda/web/my-website',
+          editUrl: 'https://github.com/anthonycastaneda/web/',
         },
         blog: {
           showReadingTime: true,
@@ -43,7 +45,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'NavBar',
+        title: '➡️',
         logo: {
           alt: 'My Site Logo',
           src: 'img/512Logo-Circle.png',
@@ -53,7 +55,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
