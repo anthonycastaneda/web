@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'MY GOD WHAT HAVE I DONE',
   tagline: 'This is not my beautiful house 🏠',
-  url: 'https://docusaurus-2.netlify.app',
+  url: 'https://heuristic-goodall-19f70a.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -26,13 +26,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/anthonycastaneda/web/',
+          
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/anthonycastaneda/web/',
+          
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -78,7 +77,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Nerd Stuff',
             items: [
               {
                 label: 'Sysadmin SubReddit',
