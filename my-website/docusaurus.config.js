@@ -48,6 +48,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/512Logo-Circle.png',
+          srcDark: 'img/GrayscaleTransparent.png',
         },
         hideOnScroll: true,
         items: [
