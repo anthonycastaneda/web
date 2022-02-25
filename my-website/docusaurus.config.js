@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'MY GOD WHAT HAVE I DONE',
   tagline: 'This is not my beautiful house 🏠',
-  url: 'https://anthonycastaneda.github.io',
+  url: 'https://tender-lumiere-41f698.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
