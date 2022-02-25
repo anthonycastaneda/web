@@ -49,6 +49,7 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/512Logo-Circle.png',
         },
+        hideOnScroll: true,
         items: [
           {
             type: 'doc',
