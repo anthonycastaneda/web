@@ -24,6 +24,7 @@ function HomepageHeader() {
           </Box>
         </Box>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">This is not my beautiful wife 👰‍♀️</p>
         <Socials />
       </div>
     </header>
