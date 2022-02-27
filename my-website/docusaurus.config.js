@@ -47,8 +47,7 @@ const config = {
         title: '➡️',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/512Logo-Circle.png',
-          srcDark: 'img/GrayscaleTransparent.png',
+          src: 'img/house.png',
         },
         hideOnScroll: true,
         items: [
@@ -73,7 +72,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: ' Intro',
                 to: '/docs/intro',
               },
             ],
