@@ -12,7 +12,7 @@ Anthony Castañeda
  Description:
     - System Administrator dabbling in web development. 
     - "Borrowing" code from sites I like. 
-    - Tries to talk skeptical sysadmins into using GitHub for their scripts. 
+    - Talking skeptical sysadmins into using GitHub for their scripts. 
     - Father, Drummer, Nerd.
 ```
 
@@ -21,4 +21,4 @@ but East Texas is every bit as weird as Austin is/was.
 ![Ave P](/img/AveP.jpg)
 I'm keeping the Tutorial section from the default Docusaurus site as a reference as I try and write documents and blog posts.
 
-Find out more about me at [here](https://anthonycastaneda.github.io)
+Find out more about me at [anthonycastaneda.github.io](https://anthonycastaneda.github.io)
