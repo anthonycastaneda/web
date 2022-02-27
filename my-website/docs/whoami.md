@@ -8,7 +8,7 @@ sidebar_position: 1
 ---
 <!-- ## whoami? -->
 
-```bash title="anthony@anthonycastaneda.com:~$ whoami"
+```title="anthony@anthonycastaneda.com:~$ whoami"
 Anthony Castaneda
  
  Description:

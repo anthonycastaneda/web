@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'MY GOD WHAT HAVE I DONE',
   tagline: 'This is not my beautiful house 🏠',
-  url: 'https://heuristic-goodall-19f70a.netlify.app/',
+  url: 'https://anthonycastaneda.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -87,10 +87,6 @@ const config = {
               {
                 label: 'Mechanical Keyboards',
                 href: 'https://reddit.com/r/mechanicalkeyboards',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/TacoAnthony',
               },
             ],
           },
