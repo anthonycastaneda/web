@@ -1,6 +1,6 @@
 import React from 'react';
 import { Socials } from '.';
-import styles from './NewHomepageFeatures.module.css';
+import styles from './HomepageFeatures.module.css';
 
 export default function HomepageFeatures() {
     return (
