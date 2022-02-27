@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/favicon.ico',
   organizationName: 'anthonycastaneda', // Usually your GitHub org/user name.
   projectName: 'web', // Usually your repo name.
    // ...
@@ -105,7 +105,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Anthony Castaneda. Built with Satan in my Heart. 👹`,
+        copyright: `Copyright © ${new Date().getFullYear()} Anthony Castañeda. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -3,13 +3,11 @@ id: whoami
 title: whoami?
 sidebar_label: whoami?
 sidebar_position: 1
-
-
 ---
 <!-- ## whoami? -->
 
 ```title="anthony@anthonycastaneda.com:~$ whoami"
-Anthony Castaneda
+Anthony Castañeda
  
  Description:
     - System Administrator dabbling in web development. 
@@ -17,7 +15,6 @@ Anthony Castaneda
     - Tries to talk skeptical sysadmins into using GitHub for their scripts. 
     - Father, Drummer, Nerd.
 ```
-
 
 I'm keeping the Tutorial section from the default Docusaurus site as a reference as I try and write documents and blog posts.
 
