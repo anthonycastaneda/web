@@ -5,7 +5,7 @@ sidebar_position: 1
 # Upgrade VMware Tools with Chocolatey
 
 So you have a urgent security patch for VMware Tools, and you have a **LOT** of virtual servers that you need to patch and reboot, right away.
-Easy to do if you have Chocolatey installed on them.
+Easy to do if you have [Chocolatey](https://chocolatey.org) installed on them.
 
 ```powershell
 ### Get your Servers by OU
@@ -13,7 +13,7 @@ Easy to do if you have Chocolatey installed on them.
 $Servers = (Get-ADComputer -Filter * -SearchBase "OU=Servers,DC=contoso,DC=com").Name
 
 ### Loop through the servers, enable FIPS mode for chocolatey
-### Upgrade VMware Tools with chocolaey and reboot the server if it needs it.
+### Upgrade VMware Tools with chocolatey and reboot the server if it needs it.
 
 foreach ($Server in $Servers)
 {
