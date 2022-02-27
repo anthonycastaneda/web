@@ -18,6 +18,8 @@ import {
   usePrismTheme,
 } from '@docusaurus/theme-common';
 import styles from './styles.module.css';
+
+// CodeBlock returns codeblock
 export default function CodeBlock({
   children,
   className: blockClassName = '',

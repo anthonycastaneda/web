@@ -30,6 +30,7 @@ function HomepageHeader() {
     </header>
   );
 }
+// Home returns home
 export default function Home() {
   return (
     <Layout title="Home" description="Anthony Castaneda Blog">
