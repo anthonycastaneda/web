@@ -6,7 +6,7 @@ sidebar_position: 1
 ---
 <!-- ## whoami? -->
 
-```title="anthony@anthonycastaneda.com:~$ whoami"
+```markdown title="anthony@anthonycastaneda.com:~$ whoami"
 Anthony Castañeda
  
  Description:
@@ -16,6 +16,9 @@ Anthony Castañeda
     - Father, Drummer, Nerd.
 ```
 
+I'm an IT guy that moved to East Texas after living in Austin for 20 years. The pace is slower here,
+but East Texas is every bit as weird as Austin is/was.
+![Ave P](/img/AveP.jpg)
 I'm keeping the Tutorial section from the default Docusaurus site as a reference as I try and write documents and blog posts.
 
 Find out more about me at [here](https://anthonycastaneda.github.io)

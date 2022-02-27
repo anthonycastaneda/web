@@ -4,8 +4,11 @@ sidebar_position: 1
 
 # Docs Intro
 
-I'm not really sure what I'll keep in the Docs section,  **but it will be interesting.**.
+![East Texas](/img/Lakehouse.jpeg)
 
-## Do What?
+:::info
 
-What do I document?  Code?  Recipes for pressure cookers?  Gift wishlists?  Sky is the limit, yo.
+I'll probably write docs on a variety of topics,
+I'll do my best to keep them organized in the sidebar.
+
+:::
