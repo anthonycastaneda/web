@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
@@ -65,6 +65,7 @@ const config = {
           },
         ],
       },
+      metadata: [{ name: 'robots', content: 'max-image-preview:large' }],
       footer: {
         style: 'dark',
         links: [
