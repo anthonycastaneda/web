@@ -1,4 +1,5 @@
 # Website
+![Website](https://img.shields.io/website?down_color=red&down_message=offline&logo=Azure%20Pipelines&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Fanthonycastaneda.com)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
@@ -10,32 +11,26 @@ yarn
 
 ### Local Development
 
-```
-yarn start
+```bash
+npm run start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
 
-```
-yarn build
+```bash
+npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
 
-Using SSH:
+Uses:
 
-```
-USE_SSH=true yarn deploy
-```
+Azure Pipelines
 
-Not using SSH:
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/anthonycastaneda/web/azure-static-webapps?logo=Azure%20Pipelines&style=for-the-badge)
 
-```
-GIT_USER=<Your GitHub username> yarn deploy
-```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
