@@ -23,8 +23,8 @@ This command generates static content into the `build` directory and can be serv
 
 Uses:
 
-Azure Pipelines
+GitHub Actions to Push to Azure Static Web App
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/anthonycastaneda/web/azure-static-webapps?logo=Azure%20Pipelines&style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/anthonycastaneda/web/azure-static-webapps?logo=Azure&style=for-the-badge)
 
 
