@@ -1,11 +1,11 @@
 # Website
-![Website](https://img.shields.io/website?down_color=red&down_message=offline&logo=Azure%20Pipelines&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Fanthonycastaneda.com)
+![Website](https://img.shields.io/website?down_color=red&down_message=offline&logo=Microsoft%20Azure&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Fanthonycastaneda.com)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Local Development
 
-```bash
+```shell
 npm run start
 ```
 
@@ -13,7 +13,7 @@ This command starts a local development server and opens up a browser window. Mo
 
 ### Build
 
-```bash
+```shell
 npm run build
 ```
 
@@ -25,6 +25,4 @@ Uses:
 
 GitHub Actions to Push to Azure Static Web App
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/anthonycastaneda/web/azure-static-webapps?logo=Azure&style=for-the-badge)
-
-
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/anthonycastaneda/web/azure-static-webapps?color=green&label=Deploy&logo=Microsoft%20Azure&style=for-the-badge)
