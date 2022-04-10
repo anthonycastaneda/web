@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap");
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -15,13 +15,12 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
-  --ifm-font-family-base: 'Fira Code', monospace;
+  --ifm-font-family-base: "Fira Code", monospace;
   --ifm-code-font-size: 95%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-html[data-theme='dark'] {
-
+html[data-theme="dark"] {
   --ifm-color-primary: #00c7fc;
   --ifm-color-primary-dark: #00b3e3;
   --ifm-color-primary-darker: #00a9d6;
@@ -29,7 +28,6 @@ html[data-theme='dark'] {
   --ifm-color-primary-light: #16ceff;
   --ifm-color-primary-lighter: #23d1ff;
   --ifm-color-primary-lightest: #49d9ff;
-
 }
 
 .docusaurus-highlight-code-line {
@@ -39,7 +37,7 @@ html[data-theme='dark'] {
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -47,14 +45,14 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   counter-reset: line-number;
 }
 
-.prism-code[class*=language-] .token-line::before {
+.prism-code[class*="language-"] .token-line::before {
   counter-increment: line-number;
   content: counter(line-number);
   margin-right: calc(var(--ifm-pre-padding) * 1.5);
   text-align: right;
   min-width: 1.5rem;
   display: inline-block;
-  opacity: .3;
+  opacity: 0.3;
   position: sticky;
   left: var(--ifm-pre-padding);
 }

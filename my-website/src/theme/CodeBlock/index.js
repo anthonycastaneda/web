@@ -4,11 +4,12 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-import React, {isValidElement, useEffect, useState} from 'react';
-import clsx from 'clsx';
-import Highlight, {defaultProps} from 'prism-react-renderer';
-import copy from 'copy-text-to-clipboard';
-import Translate, {translate} from '@docusaurus/Translate';
+/* We are importing the following: */
+import React, { isValidElement, useEffect, useState } from "react";
+import clsx from "clsx";
+import Highlight, { defaultProps } from "prism-react-renderer";
+import copy from "copy-text-to-clipboard";
+import Translate, { translate } from "@docusaurus/Translate";
 import {
   useThemeConfig,
   parseCodeBlockTitle,
@@ -16,18 +17,19 @@ import {
   parseLines,
   ThemeClassNames,
   usePrismTheme,
-} from '@docusaurus/theme-common';
-import styles from './styles.module.css';
+} from "@docusaurus/theme-common";
+import styles from "./styles.module.css";
 
 // CodeBlock returns codeblock
+/* This is the code block component. It is a function that returns a function. */
 export default function CodeBlock({
   children,
-  className: blockClassName = '',
+  className: blockClassName = "",
   metastring,
   title,
   language: languageProp,
 }) {
-  const {prism} = useThemeConfig();
+  const { prism } = useThemeConfig();
   const [showCopied, setShowCopied] = useState(false);
   const [mounted, setMounted] = useState(false); // The Prism theme on SSR is always the default theme but the site theme
   // can be in a different mode. React hydration doesn't update DOM styles
@@ -54,20 +56,22 @@ export default function CodeBlock({
         key={String(mounted)}
         theme={prismTheme}
         code=""
-        language={'text'}>
-        {({className, style}) => (
+        language={"text"}
+      >
+        {({ className, style }) => (
           <pre
             /* eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex */
             tabIndex={0}
             className={clsx(
               className,
               styles.codeBlockStandalone,
-              'thin-scrollbar',
+              "thin-scrollbar",
               styles.codeBlockContainer,
               blockClassName,
-              ThemeClassNames.common.codeBlock,
+              ThemeClassNames.common.codeBlock
             )}
-            style={style}>
+            style={style}
+          >
             <code className={styles.codeBlockLines}>{children}</code>
           </pre>
         )}
@@ -75,10 +79,10 @@ export default function CodeBlock({
     );
   } // The children is now guaranteed to be one/more plain strings
 
-  const content = Array.isArray(children) ? children.join('') : children;
+  const content = Array.isArray(children) ? children.join("") : children;
   const language =
     languageProp ?? parseLanguage(blockClassName) ?? prism.defaultLanguage;
-  const {highlightLines, code} = parseLines(content, metastring, language);
+  const { highlightLines, code } = parseLines(content, metastring, language);
 
   const handleCopyCode = () => {
     copy(code);
@@ -92,8 +96,9 @@ export default function CodeBlock({
       key={String(mounted)}
       theme={prismTheme}
       code={code}
-      language={language ?? 'text'}>
-      {({className, style, tokens, getLineProps, getTokenProps}) => (
+      language={language ?? "text"}
+    >
+      {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <div
           className={clsx(
             styles.codeBlockContainer,
@@ -102,8 +107,9 @@ export default function CodeBlock({
               [`language-${language}`]:
                 language && !blockClassName.includes(`language-${language}`),
             },
-            ThemeClassNames.common.codeBlock,
-          )}>
+            ThemeClassNames.common.codeBlock
+          )}
+        >
           {codeBlockTitle && (
             <div style={style} className={styles.codeBlockTitle}>
               {codeBlockTitle}
@@ -113,12 +119,13 @@ export default function CodeBlock({
             <pre
               /* eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex */
               tabIndex={0}
-              className={clsx(className, styles.codeBlock, 'thin-scrollbar')}
-              style={style}>
+              className={clsx(className, styles.codeBlock, "thin-scrollbar")}
+              style={style}
+            >
               <code className={styles.codeBlockLines}>
                 {tokens.map((line, i) => {
-                  if (line.length === 1 && line[0].content === '\n') {
-                    line[0].content = '';
+                  if (line.length === 1 && line[0].content === "\n") {
+                    line[0].content = "";
                   }
 
                   const lineProps = getLineProps({
@@ -127,7 +134,7 @@ export default function CodeBlock({
                   });
 
                   if (highlightLines.includes(i)) {
-                    lineProps.className += ' docusaurus-highlight-code-line';
+                    lineProps.className += " docusaurus-highlight-code-line";
                   }
 
                   return (
@@ -151,22 +158,25 @@ export default function CodeBlock({
             <button
               type="button"
               aria-label={translate({
-                id: 'theme.CodeBlock.copyButtonAriaLabel',
-                message: 'Copy code to clipboard',
-                description: 'The ARIA label for copy code blocks button',
+                id: "theme.CodeBlock.copyButtonAriaLabel",
+                message: "Copy code to clipboard",
+                description: "The ARIA label for copy code blocks button",
               })}
-              className={clsx(styles.copyButton, 'clean-btn')}
-              onClick={handleCopyCode}>
+              className={clsx(styles.copyButton, "clean-btn")}
+              onClick={handleCopyCode}
+            >
               {showCopied ? (
                 <Translate
                   id="theme.CodeBlock.copied"
-                  description="The copied button label on code blocks">
+                  description="The copied button label on code blocks"
+                >
                   Copied
                 </Translate>
               ) : (
                 <Translate
                   id="theme.CodeBlock.copy"
-                  description="The copy button label on code blocks">
+                  description="The copy button label on code blocks"
+                >
                   Copy
                 </Translate>
               )}

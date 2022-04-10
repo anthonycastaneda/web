@@ -20,5 +20,5 @@ ForEach-Object {
 } | Export-Csv .\OU-Report.csv
 ```
 
-As you can see it isn't anything fancy but I found it to be useful.  Maybe the field techs knew they could ask me for a report
-and I'd respond with one fairly quickly.  I'm too nice.
+As you can see it isn't anything fancy but I found it to be useful. Maybe the field techs knew they could ask me for a report
+and I'd respond with one fairly quickly. I'm too nice.

@@ -4,16 +4,13 @@ title: whoami?
 sidebar_label: whoami?
 sidebar_position: 1
 ---
+
 <!-- ## whoami? -->
 
 ```markdown title="anthony@anthonycastaneda.com:~$ whoami"
 Anthony Castañeda
- 
- Description:
-    - System Administrator dabbling in web development. 
-    - "Borrowing" code from sites I like. 
-    - Talking skeptical sysadmins into using GitHub for their scripts. 
-    - Father, Drummer, Nerd.
+
+Description: - System Administrator dabbling in web development. - "Borrowing" code from sites I like. - Talking skeptical sysadmins into using GitHub for their scripts. - Father, Drummer, Nerd.
 ```
 
 I'm an IT guy that moved to East Texas after living in Austin for 20 years. The pace is slower here,

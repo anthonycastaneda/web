@@ -11,10 +11,10 @@ Obviously you should be careful doing this in a Production domain :laughing:
 
 ```powershell title='Reboot All The RODCs'
 $RODCs = (Get-ADDomainController -Filter {IsReadOnly -eq $true})
- 
+
 foreach($RODC in $RODCs){
     Invoke-Command -ComputerName $RODC {Restart-Computer}
     }
 ```
 
-See?  Easy.
+See? Easy.
