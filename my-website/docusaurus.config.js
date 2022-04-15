@@ -7,9 +7,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "MY GOD WHAT HAVE I DONE",
+  title: "Docs and Blog and Whatnot",
   tagline: "This is not my beautiful house 🏠",
-  url: "https://anthonycastaneda.com",
+  url: "https://docs.anthonycastaneda.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
