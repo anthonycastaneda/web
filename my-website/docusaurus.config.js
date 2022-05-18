@@ -1,7 +1,4 @@
-// @ts-nocheck
-// Note: type annotations allow type checking and IDEs autocompletion
 
-/* This is a way to import code from other files. */
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
@@ -22,7 +19,7 @@ const config = {
     presets: [
         [
             "classic",
-            /** @type {import('@docusaurus/preset-classic').Options} */
+              /**   @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
                     sidebarPath: require.resolve("./sidebars.js"),
