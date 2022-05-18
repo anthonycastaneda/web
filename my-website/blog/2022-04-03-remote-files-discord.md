@@ -9,7 +9,7 @@ I've been writing a Discord bot for a local guild here in Huntsville. I've been 
 
 Anyway, I made a slash command to grab a copy of the Garfield Minus Garfield webcomic. It's hosted on Tumblr unfortunately so the Tumblr API was a nightmare to work with. I ended up grabbing around 45 \*.png files from the web and saving them to my project folder. All was well.
 
-I could select a random file, but when I tried to place it in the Embed, I realized the Embed requires http or https, no local files allowed. So I had to quickly figure out how to make a generic webserver and host the files there. If you look at the code, you'll notice I select a random file from a folder local to my project, but I call a URL with the same filename when it's time to put it in the embed.
+I could select a random file, but when I tried to place it in the Embed, I realized the Embed requires http or https, no local files allowed. So I had to quickly figure out how to make a generic webserver and host the files there. If you look at the code, you'll notice I select a random file from a folder local to my project, but I call a URL with the same filename when it's time to put it in the embed.  Ugly, but it works.
 
 ```js
 const { SlashCommandBuilder } = require("@discordjs/builders");
