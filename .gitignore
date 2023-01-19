@@ -108,3 +108,5 @@ dist
 .DS_Store
 .DS_Store
 web.code-workspace
+my-website/package-lock.json
+package-lock.json

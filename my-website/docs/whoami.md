@@ -21,6 +21,6 @@ Description:
 I'm an IT guy that moved to East Texas after living in Austin for 20 years. The pace is slower here,
 but East Texas is every bit as weird as Austin is/was.
 ![Ave P](/img/AveP.jpg)
-I'm keeping the Tutorial section from the default Docusaurus site as a reference as I try and write documents and blog posts.
+I'm keeping the Tutorial section from the default Docusaurus site as a reference.
 
 Find out more about me at [anthonycastaneda.github.io](https://anthonycastaneda.github.io)

@@ -42,7 +42,7 @@ function HomepageHeader() {
  */
 export default function Home() {
   return (
-    <Layout title="Home" description="Anthony Castaneda Blog">
+    <Layout title="Home" description="Anthony Castaneda">
       <HomepageHeader />
     </Layout>
   );
