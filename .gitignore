@@ -110,3 +110,5 @@ dist
 web.code-workspace
 my-website/package-lock.json
 package-lock.json
+package-lock.json
+my-website/package-lock.json

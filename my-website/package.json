@@ -29,6 +29,7 @@
     "@types/express": "^4.17.13",
     "babel-plugin-macros": "^3.1.0",
     "clsx": "^1.1.1",
+    "docusaurus": "^1.14.7",
     "docusaurus-plugin-sass": "^0.2.2",
     "fg-loadcss": "^3.1.0",
     "prism-react-renderer": "^1.2.1",

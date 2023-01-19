@@ -4,11 +4,11 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "Docs and Blog and Whatnot",
+    title: "MY GOD WHAT HAVE I DONE",
     tagline: "This is not my beautiful house 🏠",
     url: "https://docs.anthonycastaneda.com",
     baseUrl: "/",
-    onBrokenLinks: "throw",
+    onBrokenLinks: "ignore",
     onBrokenMarkdownLinks: "warn",
     favicon: "/img/favicon.ico",
     organizationName: "anthonycastaneda", // Usually your GitHub org/user name.
@@ -51,7 +51,6 @@ const config = {
                         position: "left",
                         label: "Docs",
                     },
-                    { to: "/blog", label: "Blog", position: "left" },
                     {
                         href: "https://github.com/anthonycastaneda",
                         label: "GitHub",
@@ -88,10 +87,6 @@ const config = {
                     {
                         title: "More",
                         items: [
-                            {
-                                label: "Blog",
-                                to: "/blog",
-                            },
                             {
                                 label: "GitHub",
                                 href: "https://github.com/anthonycastaneda",
